@@ -1,6 +1,6 @@
-Explore Kubernetes repositories on GitHub. Search with examples below.
+# Explore the Kubernetes codebase with Sourcegraph
 
-# Search examples
+Explore Kubernetes repositories on GitHub. Search with examples below.
 
 #### Use a ReplicationController configuration to ensure specified number of pod replicas are running at any one time
 
