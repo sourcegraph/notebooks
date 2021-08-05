@@ -1,10 +1,12 @@
-## Quickly filter by file path, language and other elements of code
+## Quickly filter by file path and language
 
-Code search often returns files that aren’t relevant. Soucegraph allows users to filter filter by file path, language and other elements of code to narrow down results:
+Code search often returns files that aren’t relevant. Soucegraph allows users to filter by file path and language to narrow down results:
 
 ```sourcegraph
 repo:^github\.com/sourcegraph/sourcegraph$ Config() lang:Go
 ```
+
+There are many other filters available, documented [here](https://docs.sourcegraph.com/code_search/reference/queries#keywords-all-searches)
 
 ## Removing unwanted files
 
