@@ -15,7 +15,7 @@ For example, if you’re learning how the Linux kernel works, one of the topics 
 The linked list data structure in Linux is called `list_head`. We can find all instances of the `list_head` structure by searching for it directly:
 
 ```sourcegraph
-list_head
+#list_head
 ```
 
 As you review the results, you may notice that there are some common functions that are frequently used together with linked lists. One of these functions is `list_add_tail`. To explore further and find all instances of `list_add_tail`, we can start a new search for that specific function:
@@ -145,7 +145,7 @@ For example, the quoted string `"ENOENT"` represents the error when a file is no
 
 By including the quotes in the search query, you can compare this search with the same string, but without quotes. You’ll receive other results, where the string isn’t necessarily in quotes.
 
-```ENOENT
+```sourcegraph
 ENOENT
 ```
 
