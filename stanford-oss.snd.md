@@ -6,7 +6,7 @@
 
 ```sourcegraph
 repogroup:stanford machine learning
-````
+``` 
 
 #### Explore the code of specific research groups like Hazy Research, a group that investigates machine learning models and automated training set creation
 
