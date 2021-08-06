@@ -14,42 +14,25 @@ Resource listing is done using cloud providers SDK. Resource details retrieval i
 
 ## Terminology
 
-<<<<<<< HEAD
 `Scanner` is used to scan multiple cloud providers and return a set of resources, it calls all declared Supplier
-=======
-Scanner is used to scan multiple cloud providers and return a set of resources, it calls all declared Supplier
->>>>>>> 5b795c4e6914fff00a90ca64e4e7897caeaa4888
 
 ```sourcegraph
 repo:^github\.com/cloudskiff/driftctl$ Scanner
 ```
 
-<<<<<<< HEAD
 `Remote` is a representation of a cloud provider
-=======
-Remote is a representation of a cloud provider
->>>>>>> 5b795c4e6914fff00a90ca64e4e7897caeaa4888
 
 ```sourcegraph
 repo:^github\.com/cloudskiff/driftctl$ Remote
 ```
 
-
-<<<<<<< HEAD
 `Resource` is an abstract representation of a cloud provider resource (e.g. S3 bucket, EC2 instance, etc ...)
-=======
-Resource is an abstract representation of a cloud provider resource (e.g. S3 bucket, EC2 instance, etc ...)
->>>>>>> 5b795c4e6914fff00a90ca64e4e7897caeaa4888
 
 ```sourcegraph
 repo:^github\.com/cloudskiff/driftctl$ Resource
 ```
 
-<<<<<<< HEAD
 `ResourceSupplier` is used to list resources from a given type on a given remote and return a resource list, it should exist only one ResourceSupplier per resource
-=======
-ResourceSupplier is used to list resources from a given type on a given remote and return a resource list, it should exist only one ResourceSupplier per resource
->>>>>>> 5b795c4e6914fff00a90ca64e4e7897caeaa4888
 
 ```sourcegraph
 repo:^github\.com/cloudskiff/driftctl$ ResourceSupplier
