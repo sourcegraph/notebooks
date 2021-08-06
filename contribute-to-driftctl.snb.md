@@ -3,8 +3,8 @@ An interactive version of driftctl's [contributor guide](https://github.com/clou
 ## Developer guide
 This directory contains some documentation about the driftctl codebase, aimed at readers who are interested in making code contributions.
 
-[Add new resources](https://github.com/cloudskiff/driftctl/blob/main/docs/new-resource.md)
-[Testing](https://github.com/cloudskiff/driftctl/blob/main/docs/testing.md)
+- [Add new resources](https://github.com/cloudskiff/driftctl/blob/main/docs/new-resource.md)
+- [Testing](https://github.com/cloudskiff/driftctl/blob/main/docs/testing.md)
 
 ## Core concepts
 
