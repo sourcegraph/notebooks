@@ -5,7 +5,7 @@
 We love Sourcegraph because searching all our repositories is incredibly easy and allows us to explore code much faster. To search an org or user’s repos use glob like syntax:
 
 ```sourcegraph
-repo:^github\.com/sourcegraph/* Config()
+repo:^github\.com/sourcegraph/.* Config()
 ```
 
 ## Search a single repository
