@@ -7,11 +7,11 @@
 Search for O3DE gems
 
 ```sourcegraph
-repogroup:o3de file:gem.json
+context:o3de file:gem.json
 ```
 
 Browse diffs for recent code changes
 
 ```sourcegraph
-repogroup:o3de type:diff after:"1 week ago"
+context:o3de type:diff after:"1 week ago"
 ```
