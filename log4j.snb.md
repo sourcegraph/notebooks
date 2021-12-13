@@ -61,4 +61,4 @@ https://sourcegraph.com/github.com/SonarSource/sonarqube@601e7fbb0ca7cd323b69742
 
 https://sourcegraph.com/github.com/projectlombok/lombok@37d548c7fa1db5284227a861089857fc20de06ce/-/blob/buildScripts/ivy.xml?L48
 
-In the Markdown format, file blocks are represented as simple Sourcegraph links to files, for example: `https://sourcegraph.com/github.com/SonarSource/sonarqube@601e7fbb0ca7cd323b69742e15cd016dac46cf62/-/blob/build.gradle?L367`.
+In the Markdown format, file blocks are represented as simple Sourcegraph links to files, for example: `https://sourcegraph.com/github.com/SonarSource/sonarqube/-/blob/build.gradle?L367`.
