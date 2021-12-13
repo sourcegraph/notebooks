@@ -1,5 +1,7 @@
 # Find log4j dependencies across all your code
 
+This notebook was linked from our in-depth Log4j 0-day fixes and mitigations [blog post](https://about.sourcegraph.com/blog/log4j-log4shell-0-day/).
+
 Run these queries on Sourcegraph to quickly determine which projects directly depend on vulnerable versions of log4j.
 The following notebook contains search queries that identify vulnerable dependencies on Sourcegraph Cloud across 2M public repositories.
 
