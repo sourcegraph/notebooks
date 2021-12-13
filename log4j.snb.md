@@ -5,6 +5,10 @@ This notebook was linked from our in-depth Log4j 0-day fixes and mitigations [bl
 Run these queries on Sourcegraph to quickly determine which projects directly depend on vulnerable versions of log4j.
 The following notebook contains search queries that identify vulnerable dependencies on Sourcegraph Cloud across 2M public repositories.
 
+Although code search is a fast and versatile tool for assessing the impact of a novel vulnerability, it's not perfect. These build 
+systems have no convention for dependency lockfiles, so the queries below won't find projects where log4j is a transitive or an indirect dependency (because 
+there's no file committed to Git that lists the fully resolved dependencies and versions).
+
 ## Gradle
 
 ```sourcegraph
