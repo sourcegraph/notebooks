@@ -5,10 +5,11 @@ The following links show results on Sourcegraph Cloud across 2M public repositor
 
 ## How to use this notebook on your Sourcegraph instance
 
-- Ensure your Sourcegraph instance version is at least 3.31 and enable notebooks in experimental settings `experimentalFeatures.showSearchNotebook`
-- [Download](https://sourcegraph.com/github.com/sourcegraph/notebooks@rn/log4j-notebook/-/raw/log4j.snb.md) this notebook as a Markdown file
+- _Ensure your Sourcegraph instance version is at least 3.31 and enable notebooks in experimental settings `experimentalFeatures.showSearchNotebook`_
+- <a href="https://sourcegraph.com/github.com/sourcegraph/notebooks@rn/log4j-notebook/-/raw/log4j.snb.md" target="_blank">Download</a> this notebook as a Markdown file
+- Add the Markdown file to a branch in your repository and open it in Sourcegraph
 - Customize the searches below to target specific repositories or keep them as-is to search across all repositories
-- Add the Markdown file to a repository and open it in Sourcegraph
+- Keep a list of file blocks to track your progress on the files you need to update
 
 ## Gradle
 
@@ -52,7 +53,7 @@ org\.apache\.logging\.log4j 2.((0|1|2|3|4|5|6|7|8|9|10|11|12|13|14)(\.[0-9]+))
 patterntype:regexp
 ```
 
-## Example: file blocks
+## Example: a list of files to update
 
 https://sourcegraph.com/github.com/SonarSource/sonarqube@601e7fbb0ca7cd323b69742e15cd016dac46cf62/-/blob/build.gradle?L367
 
