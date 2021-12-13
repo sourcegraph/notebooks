@@ -1,15 +1,17 @@
-# Find everywhere log4j is used across all your code
+# Find log4j dependencies across all your code
 
 Run these queries on Sourcegraph to quickly determine which projects directly depend on vulnerable versions of log4j.
-The following links show results on Sourcegraph Cloud across 2M public repositories.
+The following notebook shows query results on Sourcegraph Cloud across 2M public repositories.
 
 ## How to use this notebook on your Sourcegraph instance
 
-- _Ensure your Sourcegraph instance version is at least 3.31 and enable notebooks in experimental settings `experimentalFeatures.showSearchNotebook`_
-- <a href="https://sourcegraph.com/github.com/sourcegraph/notebooks@rn/log4j-notebook/-/raw/log4j.snb.md" target="_blank">Download</a> this notebook as a Markdown file
-- Add the Markdown file to a branch in your repository and open it in Sourcegraph
+- Ensure your Sourcegraph instance version is at least 3.31 and enable notebooks in global settings with `{ "experimentalFeatures": { "showSearchNotebook": true }}`
+- Copy the Markdown formatted notebook and save it to a file with a `.snb.md` extension (<a href="?view=code">Markdown code</a>)
 - Customize the searches below to target specific repositories or keep them as-is to search across all repositories
 - Keep a list of file blocks to track your progress on the files you need to update
+- Add the notebook file to a branch in your repository and open it in Sourcegraph
+- Share the link to the notebook with your team
+- Update found log4j dependencies until all search queries return no results!
 
 ## Gradle
 
@@ -54,6 +56,8 @@ patterntype:regexp
 ```
 
 ## Example: a list of files to update
+
+In the Markdown format, file blocks are represented as simple Sourcegraph links to files, for example: `https://sourcegraph.com/github.com/SonarSource/sonarqube@601e7fbb0ca7cd323b69742e15cd016dac46cf62/-/blob/build.gradle?L367`.
 
 https://sourcegraph.com/github.com/SonarSource/sonarqube@601e7fbb0ca7cd323b69742e15cd016dac46cf62/-/blob/build.gradle?L367
 
