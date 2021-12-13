@@ -8,7 +8,7 @@ The following notebook contains search queries that identify vulnerable dependen
 - Ensure your Sourcegraph instance version is at least 3.31 and enable notebooks in global settings with `{ "experimentalFeatures": { "showSearchNotebook": true }}`
 - Copy the Markdown formatted notebook and save it to a file with a `.snb.md` extension (<a href="?view=code">Markdown code</a>)
 - Customize the searches below to target specific repositories or keep them as-is to search across all repositories
-- Keep a list of file blocks to track your progress on the files you need to update
+- Keep a <a href="#example-a-list-of-files-to-update">list of file blocks</a> to track your progress on the files you need to update
 - Add the notebook file to a branch in your repository and open it in Sourcegraph
 - Share the link to the notebook with your team
 - Update found log4j dependencies until all search queries return no results!
