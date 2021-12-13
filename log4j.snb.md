@@ -3,16 +3,6 @@
 Run these queries on Sourcegraph to quickly determine which projects directly depend on vulnerable versions of log4j.
 The following notebook contains search queries that identify vulnerable dependencies on Sourcegraph Cloud across 2M public repositories.
 
-## How to use this notebook on your Sourcegraph instance
-
-- Ensure your Sourcegraph instance version is at least 3.31 and enable notebooks in global settings with `{ "experimentalFeatures": { "showSearchNotebook": true }}`
-- Copy the Markdown formatted notebook and save it to a file with a `.snb.md` extension (<a href="?view=code">Markdown code</a>)
-- Customize the searches below to target specific repositories or keep them as-is to search across all repositories
-- You can keep a <a href="#example-a-list-of-files-to-update">list of file blocks</a> to track your progress on the files you need to update
-- Add the notebook file to a branch in your repository and open it in Sourcegraph
-- Share the link to the notebook with your team
-- Update found log4j dependencies until all search queries return no results!
-
 ## Gradle
 
 ```sourcegraph
@@ -62,6 +52,16 @@ https://sourcegraph.com/github.com/SonarSource/sonarqube@601e7fbb0ca7cd323b69742
 https://sourcegraph.com/github.com/projectlombok/lombok@37d548c7fa1db5284227a861089857fc20de06ce/-/blob/buildScripts/ivy.xml?L48
 
 https://sourcegraph.com/github.com/lagom/lagom@12e8ee61f0f4c3a3658fd569b5562c0de2b292c5/-/blob/docs/manual/java/guide/logging/code/build-log-lang.sbt?L27
+
+## How to use this notebook on your Sourcegraph instance
+
+- Ensure your Sourcegraph instance version is at least 3.31 and enable notebooks in global settings with `{ "experimentalFeatures": { "showSearchNotebook": true }}`
+- Copy the Markdown formatted notebook and save it to a file with a `.snb.md` extension (<a href="?view=code">Markdown code</a>)
+- Customize the searches to target specific repositories or keep them as-is to search across all repositories
+- You can keep a <a href="#example-a-list-of-files-to-update">list of file blocks</a> to track your progress on the files you need to update
+- Add the notebook file to a branch in your repository and open it in Sourcegraph
+- Share the link to the notebook with your team
+- Update found log4j dependencies until all search queries return no results!
 
 ### Writing Sourcegraph Notebook Markdown
 
