@@ -77,6 +77,4 @@ lang:gradle patterntype:regexp
 
 File blocks are represented as simple Sourcegraph links to files:
 
-```
-https://sourcegraph.com/github.com/SonarSource/sonarqube/-/blob/build.gradle?L367
-```
+`https://sourcegraph.com/github.com/SonarSource/sonarqube/-/blob/build.gradle?L367`
