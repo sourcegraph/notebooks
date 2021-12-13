@@ -61,7 +61,7 @@ https://sourcegraph.com/github.com/SonarSource/sonarqube@601e7fbb0ca7cd323b69742
 
 https://sourcegraph.com/github.com/projectlombok/lombok@37d548c7fa1db5284227a861089857fc20de06ce/-/blob/buildScripts/ivy.xml?L48
 
-https://sourcegraph.com/github.com/lagom/lagom/-/blob/docs/manual/java/guide/logging/code/build-log-lang.sbt?L27
+https://sourcegraph.com/github.com/lagom/lagom@12e8ee61f0f4c3a3658fd569b5562c0de2b292c5/-/blob/docs/manual/java/guide/logging/code/build-log-lang.sbt?L27
 
 ### Writing Sourcegraph Notebook Markdown
 
