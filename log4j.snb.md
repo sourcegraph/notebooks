@@ -61,4 +61,22 @@ https://sourcegraph.com/github.com/SonarSource/sonarqube@601e7fbb0ca7cd323b69742
 
 https://sourcegraph.com/github.com/projectlombok/lombok@37d548c7fa1db5284227a861089857fc20de06ce/-/blob/buildScripts/ivy.xml?L48
 
-In the Markdown format, file blocks are represented as simple Sourcegraph links to files, for example: `https://sourcegraph.com/github.com/SonarSource/sonarqube/-/blob/build.gradle?L367`.
+https://sourcegraph.com/github.com/lagom/lagom/-/blob/docs/manual/java/guide/logging/code/build-log-lang.sbt?L27
+
+### Writing Sourcegraph Notebook Markdown
+
+You can write regular Markdown-formatted text with interleaved interactive queries and file blocks.
+Query blocks are written as code blocks with the following format:
+
+````
+```sourcegraph
+org\.apache\.logging\.log4j' 2\.((0|1|2|3|4|5|6|7|8|9|10|11|12|13|14)(\.[0-9]+))
+lang:gradle patterntype:regexp
+```
+````
+
+File blocks are represented as simple Sourcegraph links to files:
+
+```
+https://sourcegraph.com/github.com/SonarSource/sonarqube/-/blob/build.gradle?L367
+```
