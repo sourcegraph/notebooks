@@ -13,42 +13,42 @@ there's no file committed to Git that lists the fully resolved dependencies and 
 
 ```sourcegraph
 org\.apache\.logging\.log4j' 2\.((0|1|2|3|4|5|6|7|8|9|10|11|12|13|14)(\.[0-9]+))
-lang:gradle patterntype:regexp
+lang:gradle patterntype:regexp count:all
 ```
 
 ## Maven
 
 ```sourcegraph
 <log4j\.version>2\.((0|1|2|3|4|5|6|7|8|9|10|11|12|13|14)(\.[0-9]+))</log4j\.version>
-file:pom\.xml patterntype:regexp
+file:pom\.xml patterntype:regexp count:all
 ```
 
 ## Ivy
 
 ```sourcegraph
 org="org\.apache\.logging\.log4j".*rev="2\.((0|1|2|3|4|5|6|7|8|9|10|11|12|13|14)(\.[0-9]+))"
-file:ivy\.xml patterntype:regexp
+file:ivy\.xml patterntype:regexp count:all
 ```
 
 ## SBT (Scala)
 
 ```sourcegraph
 "org.apache.logging.log4j" % "2.((0|1|2|3|4|5|6|7|8|9|10|11|12|13|14)(\.[0-9]+))
-file:\.sbt$ patterntype:regexp
+file:\.sbt$ patterntype:regexp count:all
 ```
 
 ## Bazel
 
 ```sourcegraph
 org\.apache\.logging\.log4j: 2.((0|1|2|3|4|5|6|7|8|9|10|11|12|13|14)(\.[0-9]+))
-lang:bazel patterntype:regexp
+lang:bazel patterntype:regexp count:all
 ```
 
 ## Any file containing `org.apache.logging.log4j` followed by a vulnerable version number
 
 ```sourcegraph
 org\.apache\.logging\.log4j 2.((0|1|2|3|4|5|6|7|8|9|10|11|12|13|14)(\.[0-9]+))
-patterntype:regexp
+patterntype:regexp count:all
 ```
 
 ## Example: a list of files to update
@@ -77,7 +77,7 @@ Query blocks are written as code blocks with the following format:
 ````
 ```sourcegraph
 org\.apache\.logging\.log4j' 2\.((0|1|2|3|4|5|6|7|8|9|10|11|12|13|14)(\.[0-9]+))
-lang:gradle patterntype:regexp
+lang:gradle patterntype:regexp count:all
 ```
 ````
 
