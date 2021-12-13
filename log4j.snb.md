@@ -3,6 +3,13 @@
 Run these queries on Sourcegraph to quickly determine which projects directly depend on vulnerable versions of log4j.
 The following links show results on Sourcegraph Cloud across 2M public repositories.
 
+## How to use this notebook on your Sourcegraph instance
+
+- Ensure your Sourcegraph instance version is at least 3.31 and enable notebooks in experimental settings `experimentalFeatures.showSearchNotebook`
+- [Download](https://sourcegraph.com/github.com/sourcegraph/notebooks@rn/log4j-notebook/-/raw/log4j.snb.md) this notebook as a Markdown file
+- Customize the searches below to target specific repositories or keep them as-is to search across all repositories
+- Add the Markdown file to a repository and open it in Sourcegraph
+
 ## Gradle
 
 ```sourcegraph
@@ -44,3 +51,9 @@ lang:bazel patterntype:regexp
 org\.apache\.logging\.log4j 2.((0|1|2|3|4|5|6|7|8|9|10|11|12|13|14)(\.[0-9]+))
 patterntype:regexp
 ```
+
+## Example: file blocks
+
+https://sourcegraph.com/github.com/SonarSource/sonarqube@601e7fbb0ca7cd323b69742e15cd016dac46cf62/-/blob/build.gradle?L367
+
+https://sourcegraph.com/github.com/projectlombok/lombok@37d548c7fa1db5284227a861089857fc20de06ce/-/blob/buildScripts/ivy.xml?L48
