@@ -1,4 +1,4 @@
-# Sourcegraph Introduction for H&M
+# Sourcegraph Introduction for XXXXX
 
 
 What is Sourcegraph? Sourcegraph is a code intelligence platform. It enables developers to:
